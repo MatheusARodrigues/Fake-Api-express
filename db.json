@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "joao_silva",
+      "role": "user",
+      "created_at": "2023-01-10T08:15:00Z"
+    },
+    {
+      "id": 2,
+      "username": "maria_oliveira",
+      "role": "user",
+      "created_at": "2023-01-15T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "username": "admin_br",
+      "role": "admin",
+      "created_at": "2023-01-01T07:00:00Z"
+    },
+    {
+      "id": 4,
+      "username": "carlos_souza",
+      "role": "user",
+      "created_at": "2023-02-05T14:20:00Z"
+    },
+    {
+      "id": 5,
+      "username": "ana_pereira",
+      "role": "user",
+      "created_at": "2023-01-20T11:45:00Z"
+    },
+    {
+      "id": 6,
+      "username": "paulo_lima",
+      "role": "user",
+      "created_at": "2023-02-10T16:30:00Z"
+    },
+    {
+      "id": 7,
+      "username": "juliana_costa",
+      "role": "user",
+      "created_at": "2023-01-25T09:10:00Z"
+    },
+    {
+      "id": 8,
+      "username": "lucas_santos",
+      "role": "user",
+      "created_at": "2023-02-15T13:25:00Z"
+    },
+    {
+      "id": 9,
+      "username": "fernanda_alves",
+      "role": "user",
+      "created_at": "2023-01-30T17:50:00Z"
+    },
+    {
+      "id": 10,
+      "username": "rafael_rocha",
+      "role": "user",
+      "created_at": "2023-02-20T12:05:00Z"
+    }
+  ],
+  "follows": [
+    {
+      "following_user_id": 1,
+      "followed_user_id": 2,
+      "created_at": "2023-01-18T09:20:00Z"
+    },
+    {
+      "following_user_id": 1,
+      "followed_user_id": 5,
+      "created_at": "2023-01-22T11:15:00Z"
+    },
+    {
+      "following_user_id": 2,
+      "followed_user_id": 1,
+      "created_at": "2023-01-20T14:30:00Z"
+    },
+    {
+      "following_user_id": 3,
+      "followed_user_id": 1,
+      "created_at": "2023-01-05T10:00:00Z"
+    },
+    {
+      "following_user_id": 4,
+      "followed_user_id": 2,
+      "created_at": "2023-02-10T16:45:00Z"
+    },
+    {
+      "following_user_id": 5,
+      "followed_user_id": 3,
+      "created_at": "2023-01-25T08:30:00Z"
+    },
+    {
+      "following_user_id": 6,
+      "followed_user_id": 4,
+      "created_at": "2023-02-12T12:10:00Z"
+    },
+    {
+      "following_user_id": 7,
+      "followed_user_id": 5,
+      "created_at": "2023-01-28T15:20:00Z"
+    },
+    {
+      "following_user_id": 8,
+      "followed_user_id": 6,
+      "created_at": "2023-02-18T13:40:00Z"
+    },
+    {
+      "following_user_id": 9,
+      "followed_user_id": 7,
+      "created_at": "2023-02-05T17:00:00Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Meu primeiro post",
+      "body": "Olá mundo! Este é o meu primeiro post nesta plataforma.",
+      "user_id": 1,
+      "status": "publicado",
+      "created_at": "2023-01-12T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Dicas de viagem no Brasil",
+      "body": "Compartilhando minhas experiências de viagem pelas cidades históricas de Minas Gerais...",
+      "user_id": 2,
+      "status": "publicado",
+      "created_at": "2023-01-18T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Aviso importante",
+      "body": "Atualização para todos os usuários sobre os novos recursos da plataforma.",
+      "user_id": 3,
+      "status": "publicado",
+      "created_at": "2023-01-03T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Receita de pão de queijo",
+      "body": "Minha receita infalível do autêntico pão de queijo mineiro!",
+      "user_id": 4,
+      "status": "publicado",
+      "created_at": "2023-02-08T16:20:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Rotina de exercícios em casa",
+      "body": "Como me mantenho em forma com apenas 30 minutos de exercícios por dia.",
+      "user_id": 5,
+      "status": "publicado",
+      "created_at": "2023-01-22T12:45:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Resenha: Cem Anos de Solidão",
+      "body": "Minhas impressões sobre o clássico de Gabriel García Márquez.",
+      "user_id": 1,
+      "status": "publicado",
+      "created_at": "2023-01-30T08:15:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Home office produtivo",
+      "body": "Como organizei meu espaço de trabalho em casa para melhor produtividade.",
+      "user_id": 6,
+      "status": "publicado",
+      "created_at": "2023-02-15T11:30:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Fotografia com smartphone",
+      "body": "Dicas básicas para tirar fotos incríveis usando apenas seu celular.",
+      "user_id": 7,
+      "status": "publicado",
+      "created_at": "2023-01-28T13:50:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Aprendendo inglês",
+      "body": "Minha jornada aprendendo inglês nos últimos 6 meses - métodos que funcionaram.",
+      "user_id": 8,
+      "status": "rascunho",
+      "created_at": "2023-02-20T15:25:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Festivais culturais brasileiros",
+      "body": "Lista dos melhores festivais culturais para conhecer em 2023.",
+      "user_id": 9,
+      "status": "publicado",
+      "created_at": "2023-02-02T10:10:00Z"
+    }
+  ]
+}
