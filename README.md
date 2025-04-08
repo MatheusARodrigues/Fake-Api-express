@@ -1,26 +1,30 @@
-# Fake-Api-express
-express json-server
-Backend fake completo com express + JSON-Server
+<h1>Backend fake completo com express + JSON-Server</h1>
+<h2>express json-server</h2>
 <hr>
 
-Dependencias - Dependencies
-Para instalar as dependencias execute: To install the dependencies run:
-npm install
+<h1>Dependencias - Dependencies</h1>
+<h2>Para instalar as dependencias execute: To install the dependencies run:</h2>
+
+<strong>npm install</strong>
+
 <hr>
 
-Iniciar - Run
-Para rodar o projeto execute: In the project directory, you can run:
-npm start
+<h1>Iniciar - Run</h1>
+<h2>Para rodar o projeto execute: In the project directory, you can run:</h2>
+
+<strong>npm start</strong>
+
 <hr>
 
-Abrir - Open
-Para acessar o projeto rodando acesse os endereços abaixo: Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser JSON-Server
-Open http://localhost:8800 to view it in your browser Express
+<h1>Abrir - Open</h1>
+<h2>Para acessar o projeto rodando acesse os endereços abaixo: Runs the app in the development mode.</h2>
+
+<strong>Open http://localhost:3000 to view it in your browser JSON-Server</strong>
+<strong>Open http://localhost:8800 to view it in your browser Express</strong>
 <hr>
 
-json-server DB
-File: db.json
+<h1>json-server DB</h1>
+<h2>File: db.json</h2>
 <hr>
 
 {
